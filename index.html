@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$WhaleYee - WhaleYee WhaleYee WhaleYee! The Original Land Before Time Token</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Comic+Neue:wght@400;700&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="floating-elements"></div>
+
+    <section id="hero" class="hero-section hero-centered">
+        <div class="hero-bg">
+            <img src="images/bg-img-ducky.png" alt="Prehistoric Background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="sun-glow"></div>
+        
+        <div class="hero-content-centered">
+            <div class="speech-bubble-top">
+                <span class="yep-text">WhaleYee! WhaleYee! WhaleYee!</span>
+            </div>
+            
+            <div class="logo-container-big">
+                <img src="images/ducky-logo-text.png" alt="DUCKY Logo" class="main-logo-big wobble">
+            </div>
+            
+            <div class="ducky-showcase">
+                <img src="images/ducky.png" alt="Ducky Character" class="ducky-character-center bounce-float">
+                <div class="sparkles-center"></div>
+            </div>
+            
+            <div class="hero-buttons-center">
+                <a href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon" class="btn btn-buy">
+                    <span class="btn-icon">🛒</span>
+                    <span>Buy $WhaleYee</span>
+                </a>
+                <a href="https://t.me/Eth_Whale_Guru" target="_blank" rel="noopener noreferrer" class="btn btn-social telegram">
+                    <i class="fab fa-telegram"></i>
+                    <span>Join Our Herd!</span>
+                </a>
+                <a href="https://x.com/Eth_Whale_Guru" target="_blank" rel="noopener noreferrer" class="btn btn-social twitter">
+                    <i class="fab fa-x-twitter"></i>
+                    <span>Follow Us!</span>
+                </a>
+            </div>
+            
+            <div class="contract-wrapper-center">
+                <div class="contract-label">
+                    <span class="star">⭐</span> Contract Address <span class="star">⭐</span>
+                </div>
+                <div class="contract-box">
+                    <span id="contract">0xcomingsoon</span>
+                    <button class="copy-btn" onclick="copyContract()">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clouds">
+            <div class="cloud cloud1"></div>
+            <div class="cloud cloud2"></div>
+            <div class="cloud cloud3"></div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-egg">
+                <span>🥚</span>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="dino-icon">🦕</span>
+                    Our Prehistoric Story
+                    <span class="dino-icon">🦖</span>
+                </h2>
+            </div>
+            
+            <div class="story-path">
+                <div class="story-card card-1">
+                    <div class="card-number">1</div>
+                    <div class="card-content">
+                        <h3>🎬 The Origin Tale</h3>
+                        <p>You've heard of "YEE" but do you know the real story? It comes from a low-budget remake of the legendary 1988 Steven Spielberg and George Lucas masterpiece "The Land Before Time."</p>
+                        <div class="card-decoration">
+                            <span class="leaf">🍃</span>
+                            <span class="leaf">🌿</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="path-line"></div>
+                
+                <div class="story-card card-2 special-card">
+                    <div class="card-number">2</div>
+                    <div class="card-content">
+                        <h3>⭐ Meet The Star!</h3>
+                        <p>The original film broke box office records and introduced us to DUCKY - the adorable green Saurolophus who captured hearts with her iconic catchphrase!</p>
+                        <div class="yep-showcase">
+                            <span class="yep">WhaleYee!</span>
+                            <span class="yep">WhaleYee!</span>
+                            <span class="yep">WhaleYee!</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="path-line"></div>
+                
+                <div class="story-card card-3">
+                    <div class="card-number">3</div>
+                    <div class="card-content">
+                        <h3>👑 The Real OG</h3>
+                        <p>While Oro from the knockoff version says "YEE", our beloved $WhaleYee is the ORIGINAL who says "WhaleYee WhaleYee WhaleYee!" - Accept no imitations!</p>
+                        <div class="card-decoration">
+                            <span class="star-emoji">✨</span>
+                            <span class="star-emoji">🌟</span>
+                            <span class="star-emoji">✨</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dino-decorations">
+                <img src="images/ducky.png" alt="Ducky" class="floating-ducky ducky-left">
+                <img src="images/ducky.png" alt="Ducky" class="floating-ducky ducky-right">
+            </div>
+        </div>
+    </section>
+
+    <section id="tokenomics" class="tokenomics-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="egg-icon">🥚</span>
+                    Dino-nomics
+                    <span class="egg-icon">🥚</span>
+                </h2>
+                <p class="section-subtitle">Our prehistoric economy is simple and fair!</p>
+            </div>
+            
+            <div class="eggs-container">
+                <div class="egg-card egg-1">
+                    <div class="egg-top"></div>
+                    <div class="egg-content">
+                        <div class="egg-icon">💰</div>
+                        <h3>Total Supply</h3>
+                        <p class="egg-value">1,000,000,000</p>
+                        <p class="egg-desc">Fixed forever!</p>
+                    </div>
+                </div>
+                
+                <div class="egg-card egg-2">
+                    <div class="egg-top"></div>
+                    <div class="egg-content">
+                        <div class="egg-icon">🎉</div>
+                        <h3>Tax</h3>
+                        <p class="egg-value">0%</p>
+                        <p class="egg-desc">Free as a pterodactyl!</p>
+                    </div>
+                </div>
+                
+                <div class="egg-card egg-3">
+                    <div class="egg-top"></div>
+                    <div class="egg-content">
+                        <div class="egg-icon">🔥</div>
+                        <h3>LP Status</h3>
+                        <p class="egg-value">BURNED</p>
+                        <p class="egg-desc">Gone like the meteor!</p>
+                    </div>
+                </div>
+                
+                <div class="egg-card egg-4">
+                    <div class="egg-top"></div>
+                    <div class="egg-content">
+                        <div class="egg-icon">🔒</div>
+                        <h3>Contract</h3>
+                        <p class="egg-value">RENOUNCED</p>
+                        <p class="egg-desc">Community owned!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="buy-section-container">
+                <h3 class="buy-title">🚀 Ready to Join the Adventure? 🚀</h3>
+                <p class="buy-subtitle">Get your $WhaleYee tokens now and say WhaleYee WhaleYee WhaleYee!</p>
+                
+                <div class="buy-buttons-row">
+                    <a href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon" class="btn-large btn-buy-large">
+                        <span class="btn-icon-large">🛒</span>
+                        <span>Buy $WhaleYee Now!</span>
+                    </a>
+                    <a href="https://t.me/Eth_Whale_Guru" target="_blank" rel="noopener noreferrer" class="btn-large btn-telegram-large">
+                        <i class="fab fa-telegram"></i>
+                        <span>Join Telegram</span>
+                    </a>
+                    <a href="https://x.com/Eth_Whale_Guru" target="_blank" rel="noopener noreferrer" class="btn-large btn-twitter-large">
+                        <i class="fab fa-x-twitter"></i>
+                        <span>Follow on X</span>
+                    </a>
+                </div>
+                
+                <div class="ca-section">
+                    <div class="ca-label">
+                        <span class="star">⭐</span> Contract Address <span class="star">⭐</span>
+                    </div>
+                    <div class="ca-box">
+                        <span id="contract-bottom">0xcomingsoon</span>
+                        <button class="ca-copy-btn" onclick="copyContractBottom()">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="ducky-decoration">
+                    <img src="images/ducky.png" alt="Happy Ducky" class="small-ducky bounce-animation">
+                    <div class="yep-bubble">WhaleYee!</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="ground-decoration"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <img src="images/ducky-logo-text.png" alt="DUCKY Logo" class="footer-logo">
+                <p class="footer-tagline">WhaleYee WhaleYee WhaleYee! Join the adventure!</p>
+                
+                <div class="footer-socials">
+                    <a href="https://t.me/Eth_Whale_Guru" target="_blank" rel="noopener noreferrer" class="footer-social telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://x.com/Eth_Whale_Guru" target="_blank" rel="noopener noreferrer" class="footer-social twitter">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="disclaimer">
+                $WhaleYee is a meme token created for fun and community. Always DYOR and invest responsibly!
+            </p>
+        </div>
+        
+        <div class="footer-grass"></div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
